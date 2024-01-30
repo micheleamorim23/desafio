@@ -1,0 +1,115 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: background: rgba(23, 35, 61, 1);
+    cursor: pointer;
+    margin-right: 32px;
+    align:center 
+}
+
+button{
+    background: rgba(76, 181, 56, 1);
+    border-radius: 20.5px;
+    width: 124px;
+    height: 51px;
+    border: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.logo-image{
+    width: 595.18px;
+    height: 500px;
+    top: 246px;
+    left: 121px;
+    display: inline-block;
+}
+
+div{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: rgba(22, 26, 73, 1);
+}
+
+h2{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 62px;
+    color:  rgba(22, 26, 73, 1);
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color:rgba(75, 80, 90, 1) ;
+    width: 493px;
+    margin-top: 55px;
+    margin-bottom: 80px;
+}
+
+.link-botton{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(111,191,68,1);
+}
+
+@media screen and (max-width: 900px) {
+  header { 
+   display: none;
+  }
+  button{
+    width: 91px;
+    height: 31px;
+    margin-top: 30px;
+    margin-left: 80%;
+  }
+  h1 {
+    width: 278px;
+    height: 60px;
+    margin: auto;
+  }
+
+  h2{
+    width: 278px;
+    height: 60px;
+    margin: auto;
+  }
+
+  p{
+    width: 304px;
+    height: 165px;
+    margin: auto;
+  }
+
+  img{
+    width: 312px;
+    height: 288px;
+    top: -965px;
+    left:1167px ;
+    display: inline-block;
+}
+  }
+    
+}
